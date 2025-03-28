@@ -14,7 +14,7 @@ const About = () => {
           
           <div className="prose max-w-none">
             <p className="mb-4">
-              Hello! I'm Denis Mutwiri, a Computer Science student at Machakos University with a passion for software development and technology innovation.
+              Hello! I'm Denis Mutwiri, a Computer Science graduate from Machakos University with a passion for software development and technology innovation.
             </p>
             
             <p className="mb-4">
@@ -25,13 +25,13 @@ const About = () => {
             <p className="mb-4">
               <strong>Bachelor of Science in Computer Science</strong><br />
               Machakos University<br />
-              Expected Graduation: 2025
+              Graduated in 2023
             </p>
             
             <h2 className="text-xl font-semibold mt-8 mb-4">Skills</h2>
             <ul className="list-disc pl-5 mb-4">
-              <li><strong>Languages:</strong> Python, JavaScript, Java, C++, HTML/CSS</li>
-              <li><strong>Frameworks:</strong> React, Node.js, Django, TensorFlow</li>
+              <li><strong>Languages:</strong> Go, JavaScript, Ruby, HTML/CSS</li>
+              <li><strong>Frameworks:</strong> React, Node.js, Nextjs, Ruby on Rails, TensorFlow</li>
               <li><strong>Tools:</strong> Git, Docker, AWS, Firebase</li>
               <li><strong>Soft Skills:</strong> Problem-solving, Communication, Team Leadership</li>
             </ul>

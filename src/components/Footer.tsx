@@ -16,16 +16,16 @@ const Footer: React.FC = () => {
         
         <div className="flex flex-col items-center md:items-end">
           <div className="flex space-x-4 mb-4">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <a href="https://x.com/iMutwiiri" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <Twitter size={20} className="text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin size={20} className="text-muted-foreground hover:text-foreground transition-colors" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/Mutwiri-Mwenda" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github size={20} className="text-muted-foreground hover:text-foreground transition-colors" />
             </a>
-            <a href="mailto:example@example.com" aria-label="Email">
+            <a href="mailto:mutwirimwenda24@gmail.com" aria-label="Email">
               <Mail size={20} className="text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener noreferrer" aria-label="Source Code">

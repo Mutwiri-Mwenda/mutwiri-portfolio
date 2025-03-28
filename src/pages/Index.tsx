@@ -17,12 +17,12 @@ const Index = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <span className="inline-block h-2 w-2 bg-gray-800 rounded-sm"></span>
-              <span>incoming Software Engineering Intern @ <span className="bg-green-100 text-green-800 px-1">Company X</span> (summer 2025)</span>
+              <span>Currently looking for <span className="bg-green-100 text-green-800 px-1">Software Engineering</span> (role)</span>
             </div>
             
             <div className="flex items-center space-x-2">
               <span className="inline-block h-2 w-2 bg-gray-800 rounded-sm"></span>
-              <span>CS @ <span className="text-portfolio-brown font-medium">Machakos University</span></span>
+              <span>CS graduate from <span className="text-portfolio-brown font-medium">Machakos University</span></span>
             </div>
           </div>
           
