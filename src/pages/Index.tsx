@@ -1,12 +1,55 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import ProfilePhoto from '../components/ProfilePhoto';
+import RecentlySection from '../components/RecentlySection';
+import ActionButtons from '../components/ActionButtons';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col">
+      <Header />
+      
+      <main className="flex-grow">
+        <div className="py-6">
+          {/* Introduction and education */}
+          <div className="space-y-4">
+            <div className="flex items-center space-x-2">
+              <span className="inline-block h-2 w-2 bg-gray-800 rounded-sm"></span>
+              <span>incoming Software Engineering Intern @ <span className="bg-green-100 text-green-800 px-1">Company X</span> (summer 2025)</span>
+            </div>
+            
+            <div className="flex items-center space-x-2">
+              <span className="inline-block h-2 w-2 bg-gray-800 rounded-sm"></span>
+              <span>CS @ <span className="text-portfolio-brown font-medium">Machakos University</span></span>
+            </div>
+          </div>
+          
+          {/* Recently section */}
+          <RecentlySection />
+          
+          {/* Additional experience */}
+          <div className="mt-6 space-y-4">
+            <div className="flex items-center space-x-2">
+              <span className="inline-block h-2 w-2 bg-gray-800 rounded-sm"></span>
+              <span>in university: research in <span className="text-green-700">Data Science</span> at <span className="text-portfolio-brown font-medium">Tech Lab</span>, volunteered at <span className="text-portfolio-brown font-medium">MachHacks</span>, built the</span>
+            </div>
+            
+            <div className="ml-4 pl-2">
+              <span className="text-portfolio-brown">📱</span> <span className="font-medium">campus app</span>
+            </div>
+          </div>
+        </div>
+        
+        {/* Action buttons */}
+        <ActionButtons />
+        
+        {/* Profile photo */}
+        <ProfilePhoto />
+      </main>
+      
+      <Footer />
     </div>
   );
 };
